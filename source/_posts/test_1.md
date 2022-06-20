@@ -1,14 +1,12 @@
 ---
-title: "20220620 시각화 테스트"
-output: 
+title: "test_1"
+output:
   html_document:
     keep_md: true
 date: '2022-06-20'
 ---
 
 
-
-### csv 파일 불러오기
 
 
 ```r
@@ -25,13 +23,14 @@ str(mpg1)
 ##  $ hwy         : int  29 29 31 30 26 26 27 26 25 28 ...
 ```
 
-### 데이터 시각화 하기
-- cty, hwy 산점도를 그려본다.
 
 ```r
-library("ggplot2")
+library(ggplot2)
 
-ggplot(mpg1, aes(x = cty, y = hwy)) +
+ggplot(mpg1, aes(x = hwy, y = cty)) +
   geom_point()
 ```
-![](../images/rmd_0620/unnamed-chunk-2-1.png)
+
+![](../images/test_1/unnamed-chunk-2-1.png)
+
+
