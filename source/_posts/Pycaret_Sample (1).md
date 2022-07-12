@@ -1,6 +1,6 @@
 ---
 title: "July 5, 2022, Day14"
-../images/Day12_20220701_ML/output: 
+output: 
   html_document:
     toc: true
     toc_float: true

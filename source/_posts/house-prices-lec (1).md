@@ -1,3 +1,15 @@
+---
+title: "House Prices Practice"
+output:    
+  html_document:
+    toc: true
+    toc_float: true
+    keep_md: true
+date: '2022-07-08 08:22:22'
+---
+
+
+
 ```python
 # This Python 3 environment comes with many helpful analytics libraries installed
 # It is defined by the kaggle/python Docker image: https://github.com/kaggle/docker-python
@@ -333,7 +345,7 @@ plt.show()
 
 
     
-![png](output_11_1.png)
+![png](../images/house-prices-lec (1)/output__11_1.png)
     
 
 
@@ -363,7 +375,7 @@ plt.show()
 
 
     
-![png](output_13_1.png)
+![png](../images/house-prices-lec (1)/output__13_1.png)
     
 
 
@@ -851,7 +863,7 @@ plt.show()
 
 
     
-![png](output_41_0.png)
+![png](../images/house-prices-lec (1)/output__41_0.png)
     
 
 
@@ -875,7 +887,7 @@ plt.show()
 
 
     
-![png](output_43_0.png)
+![png](../images/house-prices-lec (1)/output__43_0.png)
     
 
 

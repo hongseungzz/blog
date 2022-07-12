@@ -1,6 +1,6 @@
 ---
 title: "July 6, 2022, Day15"
-../images/Day12_20220701_ML/../images/Day14_20220705_ML/output: 
+output: 
   html_document:
     toc: true
     toc_float: true
@@ -358,7 +358,7 @@ sns.histplot(data = titanic, x = 'age', bins = 30, hue = 'sex')
 
 
     
-![png](output_1_1.png)
+![png](../images/Review_Test/output_1_1.png)
     
 
 
@@ -376,7 +376,7 @@ sns.histplot(data = titanic, x = 'age', bins = 20, hue = 'alive', multiple = 'st
 
 
     
-![png](output_2_1.png)
+![png](../images/Review_Test/output_2_1.png)
     
 
 
@@ -394,7 +394,7 @@ sns.kdeplot(data = titanic, x = 'age', hue = 'sex', multiple = 'stack')
 
 
     
-![png](output_3_1.png)
+![png](../images/Review_Test/output_3_1.png)
     
 
 
@@ -412,7 +412,7 @@ sns.kdeplot(data = titanic, x = 'age', hue = 'alive', multiple = 'stack')
 
 
     
-![png](output_4_1.png)
+![png](../images/Review_Test/output_4_1.png)
     
 
 
@@ -430,7 +430,7 @@ sns.displot(data = titanic, x = 'age')
 
 
     
-![png](output_5_1.png)
+![png](../images/Review_Test/output_5_1.png)
     
 
 
@@ -448,7 +448,7 @@ sns.displot(data = titanic, x = 'age', kde = True)
 
 
     
-![png](output_6_1.png)
+![png](../images/Review_Test/output_6_1.png)
     
 
 
@@ -466,7 +466,7 @@ sns.displot(data = titanic, x = 'fare')
 
 
     
-![png](output_7_1.png)
+![png](../images/Review_Test/output_7_1.png)
     
 
 
@@ -484,7 +484,7 @@ sns.displot(data = titanic, x = 'fare', kde = True)
 
 
     
-![png](output_8_1.png)
+![png](../images/Review_Test/output_8_1.png)
     
 
 
@@ -502,7 +502,7 @@ sns.barplot(x = 'class', y = 'age', data = titanic)
 
 
     
-![png](output_9_1.png)
+![png](../images/Review_Test/output_9_1.png)
     
 
 
@@ -520,7 +520,7 @@ sns.pointplot(x = 'class', y = 'age', data = titanic)
 
 
     
-![png](output_10_1.png)
+![png](../images/Review_Test/output_10_1.png)
     
 
 
@@ -538,7 +538,7 @@ sns.barplot(x = 'sex', y = 'fare', data = titanic)
 
 
     
-![png](output_11_1.png)
+![png](../images/Review_Test/output_11_1.png)
     
 
 
@@ -559,7 +559,7 @@ titanic['sex'].value_counts()
 
 
     
-![png](output_12_1.png)
+![png](../images/Review_Test/output_12_1.png)
     
 
 
@@ -577,7 +577,7 @@ sns.barplot(x = 'sex', y = 'age', data = titanic)
 
 
     
-![png](output_13_1.png)
+![png](../images/Review_Test/output_13_1.png)
     
 
 
@@ -595,7 +595,7 @@ sns.boxplot(x = 'alive', y = 'age', data = titanic)
 
 
     
-![png](output_14_1.png)
+![png](../images/Review_Test/output_14_1.png)
     
 
 
@@ -613,7 +613,7 @@ sns.violinplot(x = 'alive' , y = 'age', hue = 'sex', data = titanic)
 
 
     
-![png](output_15_1.png)
+![png](../images/Review_Test/output_15_1.png)
     
 
 
@@ -631,7 +631,7 @@ sns.violinplot(x = 'alive' , y = 'age', hue = 'sex', data = titanic, split = Tru
 
 
     
-![png](output_16_1.png)
+![png](../images/Review_Test/output_16_1.png)
     
 
 
@@ -650,7 +650,7 @@ sns.countplot(x = 'alive', data = titanic)
 
 
     
-![png](output_17_1.png)
+![png](../images/Review_Test/output_17_1.png)
     
 
 
@@ -1170,7 +1170,7 @@ sns.heatmap(data = flights_pivot)
 
 
     
-![png](output_21_1.png)
+![png](../images/Review_Test/output_21_1.png)
     
 
 
@@ -1188,7 +1188,7 @@ sns.lineplot(x = 'month', y = 'passengers', data = flights)
 
 
     
-![png](output_22_1.png)
+![png](../images/Review_Test/output_22_1.png)
     
 
 
@@ -1378,7 +1378,7 @@ sns.scatterplot(x = 'total_bill', y = 'tip',  hue = 'day', data = tips)
 
 
     
-![png](output_24_1.png)
+![png](../images/Review_Test/output_24_1.png)
     
 
 
@@ -1396,7 +1396,7 @@ sns.scatterplot(x = 'total_bill', y = 'tip',  hue = 'sex', data = tips)
 
 
     
-![png](output_25_1.png)
+![png](../images/Review_Test/output_25_1.png)
     
 
 
@@ -1414,7 +1414,7 @@ sns.regplot(x = 'total_bill', y = 'tip', data = tips)
 
 
     
-![png](output_26_1.png)
+![png](../images/Review_Test/output_26_1.png)
     
 
 
@@ -1812,7 +1812,7 @@ plt.show()
 
 
     
-![png](output_28_0.png)
+![png](../images/Review_Test/output_28_0.png)
     
 
 
@@ -1831,6 +1831,6 @@ sns.scatterplot(x = 'X', y = 'Y', data = data)
 
 
     
-![png](output_29_1.png)
+![png](../images/Review_Test/output_29_1.png)
     
 

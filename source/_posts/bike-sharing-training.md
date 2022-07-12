@@ -1,3 +1,14 @@
+---
+title: "Bike Sharing Demand Training"
+output:  
+  html_document:
+    toc: true
+    toc_float: true
+    keep_md: true
+date: '2022-07-08 09:22:22'
+---
+
+
 # 양식을 강사님께서 주실 예정
 - 날짜
 - 수강생 이름
